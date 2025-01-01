@@ -1,7 +1,6 @@
 import React, {useEffect} from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
@@ -44,8 +43,6 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
-
-      <Footer />
     </div>
   );
 }
