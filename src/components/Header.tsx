@@ -27,9 +27,9 @@ function Header() {
     <nav className="sticky top-0 bg-black z-10 px-8 md:flex-row">
       <div className="flex flex-row justify-between items-center py-4">
         <div>
-          <p className="text-2xl font-proxima font-semibold text-black">
-            RUBEN
-          </p>
+          {/* <p className="text-2xl font-proxima font-semibold text-white">
+            NAVEEN
+          </p> */}
         </div>
         <div className="md:hidden">
           <button onClick={handleMenuClick}>

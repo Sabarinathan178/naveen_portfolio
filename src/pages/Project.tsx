@@ -40,7 +40,7 @@ function Project() {
       <div className="relative w-full max-w-screen-lg aspect-video flex justify-center items-center">
         <iframe
           title="Project"
-          src="https://www.youtube.com/embed/OIXhaZoq5iQ?si=YBFyRoLwqFUMFZLL&amp;controls=1"
+          src="https://www.youtube.com/embed/4mx2f26kTk8"
           className="w-full h-full rounded-lg shadow-lg"
           allow="autoplay"
         ></iframe>

@@ -47,7 +47,7 @@ const companyEvents: CompanyEvent[] = [
       {
         year: "2024",
         customers: [
-          { customer: "Shirt film", title: "Yen", description: " worked as Video Editor and Screenplay.",  url: "https://www.instagram.com/reel/CupD1y1g6GQ/?igsh=cHVmY2U5N2MxMm9o" },
+          { customer: "Shirt film", title: "Yen", description: " worked as Video Editor and Screenplay.",  url: "" },
         ],
       },
     ],
@@ -85,7 +85,7 @@ const companyEvents: CompanyEvent[] = [
         {
           year: "2024",
           customers: [
-            { customer: "Promotion content video", title: "LYNX EYE", description: " worked as a Video Editor", url: "https://www.instagram.com/reel/C2LQ7cMqvOY/?igsh=MWZubDVqMGY2Mm9teg==" },
+            { customer: "Promotion content video", title: "LYNX EYE", description: " worked as a Video Editor", url: "https://drive.google.com/file/d/1DEPjy5OpELnhjTktFzR9hYkucGOfK0k6/view?usp=drive_link" },
           ],
         },
       ],
