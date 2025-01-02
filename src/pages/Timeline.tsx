@@ -85,7 +85,7 @@ const companyEvents: CompanyEvent[] = [
         {
           year: "2024",
           customers: [
-            { customer: "Promotion content video", title: "LYNX EYE", description: " worked as a Video Editor", url: "https://drive.google.com/file/d/1DEPjy5OpELnhjTktFzR9hYkucGOfK0k6/view?usp=drive_link" },
+            { customer: "Promotion content video", title: "LYNX EYE", description: "worked as a Video Editor", url: "https://drive.google.com/file/d/1DEPjy5OpELnhjTktFzR9hYkucGOfK0k6/view?usp=drive_link" },
           ],
         },
       ],
