@@ -5,25 +5,23 @@ import { useSpring, animated } from "react-spring";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
-  const fade = useSpring({
-    from: { opacity: 0, transform: "translate3d(100%,0,0)" },
-    to: { opacity: 1, transform: "translate3d(0%,0,0)" },
-  });
-
+ 
   return (
     <div className="flex flex-row flex-wrap justify-center items-center h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden pb-10">
-      <animated.div style={fade} className="flex justify-center relative px-14">
+      <animated.div className="flex justify-center relative px-14">
         <div className="relative">
-          <img
-            src="/naveen.png"
-            alt="Naveen"
-            className="rounded-lg shadow-2xl transform transition duration-500 border-4 border-gray-700"
-          />
+        <img
+  src="/naveen2.jpg"
+  alt="Naveen"
+  className="rounded-lg shadow-2xl transform transition duration-500 border-4 border-gray-700 w-58 h-58 sm:w-[250px] sm:h-[270px] md:w-64 md:h-64 lg:w-[450px] lg:h-[450px]"
+/>
           <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-gray-700 via-gray-600 to-gray-500 blur-lg opacity-40 -z-10"></div>
         </div>
-        <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div>
+        {/* <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent"></div> */}
       </animated.div>
-      <animated.div style={fade} className="flex flex-col justify-center p-4 -mt-40 md:-mt-0">
+      <animated.div
+        className="flex flex-col justify-center p-4 -mt-40 md:-mt-0"
+      >
         <h1 className="font-extrabold text-white text-2xl md:text-3xl lg:text-4xl">
           NAVEEN R
         </h1>
